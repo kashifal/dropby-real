@@ -11,8 +11,7 @@ import colors from 'tailwindcss/colors';
 export default withShurikenUI({
   content: [
      // Paths to your files where Tailwind CSS classes will be used
-     './src/**/*.{html,js,ts,jsx,tsx}',
-     './public/index.html',
+     
   ],
   plugins: [
     // Add other Tailwind plugins here if needed
