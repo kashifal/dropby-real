@@ -76,7 +76,7 @@
       placeholder="Add a bio (optional)"
     />
       <div class="mt-5 mx-auto flex items-center justify-center">
-        <button type="button" rel="" target="" class="nui-button nui-button-md nui-button-rounded-lg nui-button-solid nui-button-primary !h-12 w-36"> Continue <!----></button>
+        <button type="button" rel="" target="" class="nui-button nui-button-md nui-button-rounded-lg nui-button-solid nui-button-default !h-12 w-36"> Continue <!----></button>
 </div>
   </div>
 </div> 
@@ -90,6 +90,7 @@ const fields = reactive({
   third: '',
   fourth: '',
 })
+const value = ref('')
 </script>
 <style lang="">
     
