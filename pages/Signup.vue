@@ -1,44 +1,14 @@
 <template lang="">
-    <div class="dark:bg-muted-800 flex min-h-screen bg-white">
+    <div class="dark:bg-[#1E293b] flex min-h-screen bg-white">
   <div class="relative flex flex-1 flex-col justify-center px-6 py-12 lg:w-2/5 lg:flex-none">
-    <div class="dark:bg-muted-800 relative mx-auto w-full max-w-sm bg-white">
+    <div class=" relative mx-auto w-full max-w-sm">
       <div class="flex w-full items-center justify-between">
         <a href="/dashboards" class="text-muted-400 hover:text-primary-500 flex items-center gap-2 font-sans font-medium transition-colors duration-300"
           ><svg data-v-b4402e20="" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="icon size-5" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="m1.027 11.993l4.235 4.25L6.68 14.83l-1.821-1.828L22.974 13v-2l-18.12.002L6.69 9.174L5.277 7.757z"></path></svg><span>Back to Home</span></a
-        ><label class="nui-theme-toggle" for="nui-input-598c87b0-a737-4b35-b5db-9936835b0730"
-          ><input type="checkbox" class="nui-theme-toggle-input" id="nui-input-598c87b0-a737-4b35-b5db-9936835b0730" /><span class="nui-theme-toggle-inner"
-            ><svg aria-hidden="true" viewBox="0 0 24 24" class="nui-sun">
-              <g fill="currentColor" stroke="currentColor" class="stroke-2">
-                <circle cx="12" cy="12" r="5"></circle>
-                <path d="M12 1v2m0 18v2M4.22 4.22l1.42 1.42m12.72 12.72 1.42 1.42M1 12h2m18 0h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"></path>
-              </g></svg
-            ><svg aria-hidden="true" viewBox="0 0 24 24" class="nui-moon"><path fill="currentColor" stroke="currentColor" d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" class="stroke-2"></path></svg></span
-        ></label>
+        >
+        <BaseThemeToggle />
       </div>
-      <div>
-        <h2 class="nui-heading nui-heading-3xl nui-weight-medium nui-lead-relaxed mt-6">Welcome back.</h2>
-        <p class="nui-paragraph nui-paragraph-sm nui-weight-normal nui-lead-normal text-muted-400 mb-6">Login with social media or your credentials</p>
-        <div class="flex flex-wrap justify-between gap-4">
-          <button class="dark:bg-muted-700 text-muted-800 border-muted-300 dark:border-muted-600 nui-focus relative inline-flex grow items-center justify-center gap-2 rounded border bg-white px-6 py-4 dark:text-white">
-            <svg data-v-b4402e20="" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="icon size-5" width="1em" height="1em" viewBox="0 0 256 262">
-              <path fill="#4285F4" d="M255.878 133.451c0-10.734-.871-18.567-2.756-26.69H130.55v48.448h71.947c-1.45 12.04-9.283 30.172-26.69 42.356l-.244 1.622l38.755 30.023l2.685.268c24.659-22.774 38.875-56.282 38.875-96.027"></path>
-              <path fill="#34A853" d="M130.55 261.1c35.248 0 64.839-11.605 86.453-31.622l-41.196-31.913c-11.024 7.688-25.82 13.055-45.257 13.055c-34.523 0-63.824-22.773-74.269-54.25l-1.531.13l-40.298 31.187l-.527 1.465C35.393 231.798 79.49 261.1 130.55 261.1"></path>
-              <path fill="#FBBC05" d="M56.281 156.37c-2.756-8.123-4.351-16.827-4.351-25.82c0-8.994 1.595-17.697 4.206-25.82l-.073-1.73L15.26 71.312l-1.335.635C5.077 89.644 0 109.517 0 130.55s5.077 40.905 13.925 58.602z"></path>
-              <path fill="#EB4335" d="M130.55 50.479c24.514 0 41.05 10.589 50.479 19.438l36.844-35.974C195.245 12.91 165.798 0 130.55 0C79.49 0 35.393 29.301 13.925 71.947l42.211 32.783c10.59-31.477 39.891-54.251 74.414-54.251"></path>
-            </svg>
-            <div>Login with Google</div></button
-          ><button class="bg-muted-200 dark:bg-muted-700 hover:bg-muted-100 dark:hover:bg-muted-600 text-muted-600 dark:text-muted-400 nui-focus w-[calc(50%_-_0.5rem)] cursor-pointer rounded px-5 py-4 text-center transition-colors duration-300 md:w-auto">
-            <svg data-v-b4402e20="" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="icon mx-auto size-4" width="1em" height="1em" viewBox="0 0 512 512"><path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645c0 138.72-105.583 298.558-298.558 298.558c-59.452 0-114.68-17.219-161.137-47.106c8.447.974 16.568 1.299 25.34 1.299c49.055 0 94.213-16.568 130.274-44.832c-46.132-.975-84.792-31.188-98.112-72.772c6.498.974 12.995 1.624 19.818 1.624c9.421 0 18.843-1.3 27.614-3.573c-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319c-28.264-18.843-46.781-51.005-46.781-87.391c0-19.492 5.197-37.36 14.294-52.954c51.655 63.675 129.3 105.258 216.365 109.807c-1.624-7.797-2.599-15.918-2.599-24.04c0-57.828 46.782-104.934 104.934-104.934c30.213 0 57.502 12.67 76.67 33.137c23.715-4.548 46.456-13.32 66.599-25.34c-7.798 24.366-24.366 44.833-46.132 57.827c21.117-2.273 41.584-8.122 60.426-16.243c-14.292 20.791-32.161 39.308-52.628 54.253"></path></svg></button
-          ><button class="bg-muted-200 dark:bg-muted-700 hover:bg-muted-100 dark:hover:bg-muted-600 text-muted-600 dark:text-muted-400 nui-focus w-[calc(50%_-_0.5rem)] cursor-pointer rounded px-5 py-4 text-center transition-colors duration-300 md:w-auto">
-            <svg data-v-b4402e20="" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="icon mx-auto size-4" width="1em" height="1em" viewBox="0 0 448 512"><path fill="currentColor" d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3M447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2c-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3c94 0 111.28 61.9 111.28 142.3V448z"></path></svg>
-          </button>
-        </div>
-        <div class="flex-100 mt-8 flex items-center">
-          <hr class="border-muted-200 dark:border-muted-700 flex-auto border-t-2" />
-          <span class="text-muted-600 dark:text-muted-300 px-4 font-sans font-light"> OR </span>
-          <hr class="border-muted-200 dark:border-muted-700 flex-auto border-t-2" />
-        </div>
-      </div>
+     
       <form method="POST" action="" class="mt-6" novalidate="">
         <div class="mt-5">
           <div>
@@ -81,13 +51,18 @@
               </div>
             </div>
           </div>
-          <p class="text-muted-400 mt-4 flex justify-between font-sans text-xs leading-5"><span>Don't have an account?</span><a href="/auth/signup-1" class="text-primary-600 hover:text-primary-500 font-medium underline-offset-4 transition duration-150 ease-in-out hover:underline"> start your 14-day free trial </a></p>
+          <div class="block mt-5 w-full rounded-md shadow-sm">
+                <button type="submit" rel="" target="" class="nui-button nui-button-md nui-button-rounded-sm nui-button-solid nui-button-primary !h-11 w-full">
+                  Create account
+                  <!---->
+                </button>
+              </div>
         </div>
       </form>
     </div>
   </div>
-  <div class="bg-muted-100 dark:bg-muted-900 relative hidden w-0 flex-1 items-center justify-center lg:flex lg:w-3/5">
-    <div class="mx-auto w-full max-w-4xl"><img class="mx-auto max-w-md" src="" alt="" width="500" height="500" /></div>
+  <div class="bg-muted-100 dark:bg-[#0F172A] relative hidden w-0 flex-1 items-center justify-center lg:flex lg:w-3/5">
+    <div class="mx-auto w-full max-w-4xl"><img class="mx-auto max-w-md" src="../public/images/magician.svg fill.png" alt="" width="500" height="500" /></div>
   </div>
 </div>
 
