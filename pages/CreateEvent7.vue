@@ -104,7 +104,7 @@
                     <button type="submit" rel="" target="" class="nui-button mx-auto flex items-center justify-center nui-button-md nui-button-rounded-lg nui-button-solid nui-button-primary w-[144px]" data-v-inspector="pages/CreateEvent7.vue:246:24"><span data-v-inspector="pages/CreateEvent7.vue:247:25">Add ticket</span><!----></button>
                      <div class="">
           <div class="mx-auto">
-            <div class="">
+            <div class="max-w-4xl mx-auto">
               <div class="px-4 sm:px-6 lg:px-8">
                 <div class="mt-8 flow-root">
                   <div class="-mx-4 -my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
@@ -214,13 +214,13 @@
                 <div>
                   <div class="fixed inset-x-0 bottom-6 z-20 mx-auto w-full max-w-[304px]">
                     <div class="nui-card nui-card-rounded-sm nui-card-default shadow-muted-300/30 dark:shadow-muted-800/30 flex items-center justify-between gap-2 rounded-2xl p-4 shadow-xl">
-                      <a href="/wizard" class="router-link-active nui-button nui-button-md nui-button-rounded-lg nui-button-solid nui-button-default w-full" disabled="false"
-                        ><span>Previous</span
-                        ><!----></a
-                      ><button type="submit" rel="" target="" class="nui-button nui-button-md nui-button-rounded-lg nui-button-solid nui-button-primary w-full">
-                        <span>Continue</span
-                        ><!---->
-                      </button>
+                      <NuxtLink to="/CreateEvent6" class="router-link-active nui-button nui-button-md nui-button-rounded-lg nui-button-solid nui-button-default w-full" disabled="false"
+          ><span>Previous</span
+          ><!----></NuxtLink
+        ><NuxtLink to="/CreateEvent8" type="submit" rel="" target="" class="nui-button nui-button-md nui-button-rounded-lg nui-button-solid nui-button-primary w-full">
+          <span>Continue</span
+          ><!---->
+          </NuxtLink>
                     </div>
                   </div>
                 </div>

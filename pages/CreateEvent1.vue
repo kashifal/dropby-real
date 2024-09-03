@@ -109,9 +109,9 @@
                       <p class="nui-paragraph nui-paragraph-md nui-weight-normal nui-lead-normal text-muted-400"><span> The event is visible for everyone to see.</span></p>
                     </div>
                     <div class="mb-5 flex flex-col items-center">
-                      <a href="/wizard/step-2" class="nui-button nui-button-md nui-button-rounded-lg nui-button-solid nui-button-primary w-36" disabled="false"
-                        ><span>Selected</span
-                        ><!----></a
+                      <NuxtLink to="/CreateEvent2" class="nui-button nui-button-md nui-button-rounded-lg nui-button-solid nui-button-primary w-36" disabled="false"
+                        ><span>Continue</span
+                        ><!----></NuxtLink
                       >
                       <div class="mt-4 text-center">
                         <a aria-current="page" href="/wizard" class="router-link-active router-link-exact-active text-muted-400 hover:text-primary-500 font-sans text-[0.65rem] font-semibold uppercase opacity-0 transition-all duration-300 group-hover:opacity-100"><span>Learn More</span></a>
@@ -125,9 +125,9 @@
                       <p class="nui-paragraph nui-paragraph-md nui-weight-normal nui-lead-normal text-muted-400"><span> The event is hidden and only you or organizer can invite </span></p>
                     </div>
                     <div class="mb-5 flex flex-col items-center">
-                      <a href="/wizard/step-2" class="nui-button nui-button-md nui-button-rounded-lg nui-button-solid nui-button-primary w-36" disabled="false"
+                      <NuxtLink to="/CreateEvent2" class="nui-button nui-button-md nui-button-rounded-lg nui-button-solid nui-button-primary w-36" disabled="false"
                         ><span>Continue</span
-                        ><!----></a
+                        ><!----></NuxtLink
                       >
                       <div class="mt-4 text-center">
                         <a aria-current="page" href="/wizard" class="router-link-active router-link-exact-active text-muted-400 hover:text-primary-500 font-sans text-[0.65rem] font-semibold uppercase opacity-0 transition-all duration-300 group-hover:opacity-100"><span>Learn More</span></a>
@@ -141,9 +141,9 @@
                       <p class="nui-paragraph nui-paragraph-md nui-weight-normal nui-lead-normal text-muted-400"><span>Only people in the activity or group can see and join the event</span></p>
                     </div>
                     <div class="mb-5 flex flex-col items-center">
-                      <a href="/wizard/step-2" class="nui-button nui-button-md nui-button-rounded-lg nui-button-solid nui-button-primary w-36" disabled="false"
+                      <NuxtLink to="/CreateEvent2" class="nui-button nui-button-md nui-button-rounded-lg nui-button-solid nui-button-primary w-36" disabled="false"
                         ><span>Continue</span
-                        ><!----></a
+                        ><!----></NuxtLink
                       >
                       <div class="mt-4 text-center">
                         <a aria-current="page" href="/wizard" class="router-link-active router-link-exact-active text-muted-400 hover:text-primary-500 font-sans text-[0.65rem] font-semibold uppercase opacity-0 transition-all duration-300 group-hover:opacity-100"><span>Learn More</span></a>

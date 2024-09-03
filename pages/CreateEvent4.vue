@@ -105,7 +105,7 @@
      
       <div class="nui-card nui-card-rounded-lg w-full nui-card-default p-6">
         <div class="w-full">
-        <div class="mb-4 text-center"><h3 class="text-muted-400 font-sans text-[0.65rem] font-semibold uppercase">Category</h3></div>
+        <div class="mb-4 w-full text-center"><h3 class="text-muted-400 font-sans text-[0.65rem] font-semibold uppercase">Category</h3></div>
         <div data-v-458ac4cc="" data-headlessui-state="" class="nui-menu w-full">
   <button data-v-458ac4cc="" type="button" rel="" target="" class="nui-button justify-between nui-button-md nui-button-rounded-sm nui-button-solid nui-button-default w-full !pe-3 !ps-4" id="headlessui-menu-button-1" aria-haspopup="menu" aria-expanded="false" data-headlessui-state="">
     <span data-v-458ac4cc="">Dropdown</span><span data-v-458ac4cc="" class="iconify i-lucide:chevron-down nui-chevron" aria-hidden="true"></span
@@ -186,13 +186,13 @@
   <div>
     <div class="fixed inset-x-0 bottom-6 z-20 mx-auto w-full max-w-[304px]">
       <div class="nui-card nui-card-rounded-sm nui-card-default shadow-muted-300/30 dark:shadow-muted-800/30 flex items-center justify-between gap-2 rounded-2xl p-4 shadow-xl">
-        <a href="/wizard" class="router-link-active nui-button nui-button-md nui-button-rounded-lg nui-button-solid nui-button-default w-full" disabled="false"
+        <NuxtLink to="/CreateEvent3" class="router-link-active nui-button nui-button-md nui-button-rounded-lg nui-button-solid nui-button-default w-full" disabled="false"
           ><span>Previous</span
-          ><!----></a
-        ><button type="submit" rel="" target="" class="nui-button nui-button-md nui-button-rounded-lg nui-button-solid nui-button-primary w-full">
+          ><!----></NuxtLink
+        ><NuxtLink to="/CreateEvent5" type="submit" rel="" target="" class="nui-button nui-button-md nui-button-rounded-lg nui-button-solid nui-button-primary w-full">
           <span>Continue</span
           ><!---->
-        </button>
+          </NuxtLink>
       </div>
     </div>
   </div>

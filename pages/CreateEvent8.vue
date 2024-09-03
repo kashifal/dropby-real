@@ -215,13 +215,13 @@
                 <div>
                   <div class="fixed inset-x-0 bottom-6 z-20 mx-auto w-full max-w-[304px]">
                     <div class="nui-card nui-card-rounded-sm nui-card-default shadow-muted-300/30 dark:shadow-muted-800/30 flex items-center justify-between gap-2 rounded-2xl p-4 shadow-xl">
-                      <a href="/wizard" class="router-link-active nui-button nui-button-md nui-button-rounded-lg nui-button-solid nui-button-default w-full" disabled="false"
-                        ><span>Previous</span
-                        ><!----></a
-                      ><button type="submit" rel="" target="" class="nui-button nui-button-md nui-button-rounded-lg nui-button-solid nui-button-primary w-full">
-                        <span>Continue</span
-                        ><!---->
-                      </button>
+                      <NuxtLink to="/CreateEvent7" class="router-link-active nui-button nui-button-md nui-button-rounded-lg nui-button-solid nui-button-default w-full" disabled="false"
+          ><span>Previous</span
+          ><!----></NuxtLink
+        ><NuxtLink to="/CreateEventfinish" type="submit" rel="" target="" class="nui-button nui-button-md nui-button-rounded-lg nui-button-solid nui-button-primary w-full">
+          <span>Continue</span
+          ><!---->
+          </NuxtLink>
                     </div>
                   </div>
                 </div>

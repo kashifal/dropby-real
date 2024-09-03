@@ -2,7 +2,7 @@ import { withShurikenUI } from '@shuriken-ui/tailwind';
 import colors from 'tailwindcss/colors';
 
 /**
- * The `withShurikenUI` function injects the Shuriken UI preset
+ * The withShurikenUI function injects the Shuriken UI preset
  * into the Tailwind CSS configuration.
  *
  * Allows VSCode to provide autocompletion
@@ -11,7 +11,7 @@ import colors from 'tailwindcss/colors';
 export default withShurikenUI({
   content: [
      // Paths to your files where Tailwind CSS classes will be used
-     
+    
   ],
   plugins: [
     // Add other Tailwind plugins here if needed
