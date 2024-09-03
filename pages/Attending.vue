@@ -1,6 +1,7 @@
 <template lang="">
+  <Sidebar />
     <div class="bg-[#0F172A] overflow-auto">
-       <div class="dark:bg-[#1E293B] bg-muted-100 px-4">
+       <div class="dark:bg-[#1E293B] 2xl:pl-[300px] xl:pl-[100px] bg-muted-100 px-4">
        <div class="relative z-[1] max-w-7xl mx-auto mb-5 flex h-16 items-center gap-2">
       <button type="button" class="flex size-10 items-center justify-center lg:hidden -ms-3"><div class="relative size-5"><span class="bg-[#9A2DE0] absolute block h-0.5 w-full transition-all duration-300 top-0.5"></span><span class="bg-[#9A2DE0] absolute top-1/2 block h-0.5 w-full max-w-[50%] transition-all duration-300"></span><span class="bg-[#9A2DE0] absolute block h-0.5 w-full transition-all duration-300 bottom-0"></span></div></button>
       <svg xmlns="http://www.w3.org/2000/svg" class="lg:block hidden" width="40" height="40" viewBox="0 0 40 40" fill="none">
@@ -468,6 +469,7 @@ Chat    </BaseButton>
        </div>
     </template>
     <script setup lang="ts">
+import Sidebar from "../components/SideBar.vue"
     
     </script>
     <style lang="">

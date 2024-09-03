@@ -1,5 +1,6 @@
 <template lang="">
-  <div class="bg-white dark:bg-[#0F172A]">
+  <Sidebar />
+  <div class="bg-white 2xl:pl-[300px] xl:pl-[100px] dark:bg-[#0F172A]">
     <div class="relative z-[1] mx-auto mb-5 flex h-16 max-w-7xl items-center gap-2">
       <button type="button" class="-ms-3 flex size-10 items-center justify-center lg:hidden">
         <div class="relative size-5"><span class="absolute top-0.5 block h-0.5 w-full bg-[#9A2DE0] transition-all duration-300"></span><span class="absolute top-1/2 block h-0.5 w-full max-w-[50%] bg-[#9A2DE0] transition-all duration-300"></span><span class="absolute bottom-0 block h-0.5 w-full bg-[#9A2DE0] transition-all duration-300"></span></div>
@@ -370,5 +371,7 @@
     </div>
   </div>
 </template>
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import Sidebar from "../components/SideBar.vue"
+</script>
 <style lang=""></style>
