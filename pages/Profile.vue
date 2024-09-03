@@ -119,7 +119,7 @@
             <button class="group-hover:ring-primary-500 dark:ring-offset-muted-800 inline-flex size-10 items-center justify-center rounded-full ring-1 ring-transparent transition-all duration-300 group-hover:ring-offset-4" id="headlessui-menu-button-16" aria-haspopup="menu" aria-expanded="false" data-headlessui-state="" type="button">
               <div class="relative inline-flex size-10 items-center justify-center rounded-full">
                 <img src="../public/images/2.svg fill.png" class="max-w-full rounded-full object-cover shadow-sm dark:border-transparent" alt="" /></div></button
-            ><!---->
+            >
           </div>
         </div>
       </div>
